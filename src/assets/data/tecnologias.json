@@ -1,0 +1,104 @@
+{
+    "tecnologias" :[
+        {
+            "nombre" : "Java",
+            "imagen" : "assets/images/tecnologias/java-256.png",
+            "grupos" : ["all", "back"]
+        }, 
+        {
+            "nombre" : "Angular",
+            "imagen" : "assets/images/tecnologias/angular-256.png",
+            "grupos" : ["all", "front"]
+        },
+        {
+            "nombre" : "Bootstrap",
+            "imagen" : "assets/images/tecnologias/bootstrap-256.png",
+            "grupos" : ["all", "front"]
+        },  
+        {
+            "nombre" : "Html5",
+            "imagen" : "assets/images/tecnologias/html5-256.png",
+            "grupos" : ["all", "front"]
+        }, 
+        {
+            "nombre" : "Javascript",
+            "imagen" : "assets/images/tecnologias/javascript-256.png",
+            "grupos" : ["all", "front"]
+        },  
+        {
+            "nombre" : "Typescript",
+            "imagen" : "assets/images/tecnologias/typescript-256.png",
+            "grupos" : ["all", "front"]
+        },  
+        {
+            "nombre" : "JQuery",
+            "imagen" : "assets/images/tecnologias/jquery-256.png",
+            "grupos" : ["all", "front"]
+        },  
+        {
+            "nombre" : "Spring IO",
+            "imagen" : "assets/images/tecnologias/spring-256.png",
+            "grupos" : ["all", "back"]
+        },  
+        {
+            "nombre" : "Struts",
+            "imagen" : "assets/images/tecnologias/struts-256.png",
+            "grupos" : ["all", "back"]
+        }, 
+        {
+            "nombre" : "Spring Boot",
+            "imagen" : "assets/images/tecnologias/springboot-256.png",
+            "grupos" : ["all", "back"]
+        },  
+        {
+            "nombre" : "Maven",
+            "imagen" : "assets/images/tecnologias/maven-256.png",
+            "grupos" : ["all", "back"]
+        },   
+        {
+            "nombre" : "Hibernate",
+            "imagen" : "assets/images/tecnologias/hibernate-256.png",
+            "grupos" : ["all", "back"]
+        },  
+        {
+            "nombre" : "MyBatis",
+            "imagen" : "assets/images/tecnologias/ibatis-256.png",
+            "grupos" : ["all", "back"]
+        },  
+        {
+            "nombre" : "JUnit",
+            "imagen" : "assets/images/tecnologias/junit-256.png",
+            "grupos" : ["all", "back"]
+        }, 
+        {
+            "nombre" : "Jbpm",
+            "imagen" : "assets/images/tecnologias/jbpm-256.png",
+            "grupos" : ["all", "back"]
+        },
+        {
+            "nombre" : "Oracle",
+            "imagen" : "assets/images/tecnologias/oracle-256.png",
+            "grupos" : ["all", "back"]
+        }, 
+        {
+            "nombre" : "MySQL",
+            "imagen" : "assets/images/tecnologias/mysql-256.png",
+            "grupos" : ["all", "back"]
+        }, 
+        {
+            "nombre" : "Scrum",
+            "imagen" : "assets/images/tecnologias/scrum-256.png",
+            "grupos" : ["all"]
+        },
+        {
+            "nombre" : "Git",
+            "imagen" : "assets/images/tecnologias/git-256.png",
+            "grupos" : ["all"]
+        },  
+        {
+            "nombre" : "Subversion",
+            "imagen" : "assets/images/tecnologias/svn-256.png",
+            "grupos" : ["all"]
+        }
+    ]  
+}

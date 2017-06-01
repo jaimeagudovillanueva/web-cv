@@ -1,0 +1,18 @@
+  <section id="works" class="works-section section-padding">
+    <div class="container">
+      <h2 class="section-title wow fadeInUp">Tecnologías</h2>
+
+      <ul class="list-inline" id="filter">
+          <li><a class="active" (click)="cambiaGrupo('all')">Todas</a></li>
+          <li><a (click)="cambiaGrupo('front')">Frontend</a></li>
+          <li><a (click)="cambiaGrupo('back')">Backend</a></li>
+      </ul>
+
+      <div class="row">
+        <div id="grid">
+           <tecnologia *ngFor="let tec of tecnologias | filtroGrupo:grupoSeleccionado" [datos]="tec">
+            </tecnologia> 
+        </div>
+      </div>
+    </div>
+  </section>

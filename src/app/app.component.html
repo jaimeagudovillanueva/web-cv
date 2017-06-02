@@ -83,7 +83,7 @@
           </div>
 
           <div class="short-info wow fadeInUp">
-            <h3>¿Qué hago?</h3>
+            <h3 i18n="Question|What to do">¿Qué hago?</h3>
             <p>Trabajo desarrollando aplicaciones web Java desde hace más de 10 años. Perfil fullstack con amplia experiencia tanto en desarrollos frontend como en backend. Rápida integración en grupos de trabajo y posibilidad de formar y dirigir a compañeros menos experimentados.</p>
 
             <ul class="list-check">
@@ -97,8 +97,8 @@
           </div>
 
           <div class="download-button">
-            <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Escríbeme</a>
-            <a class="btn btn-primary btn-lg" href="#"><i class="fa fa-download"></i>Descarga mi cv</a>
+            <a class="btn btn-info btn-lg" href="mailto:jaimeagudovillanueva@gmail.com"><i class="fa fa-paper-plane"></i>Escríbeme</a>
+            <a class="btn btn-primary btn-lg" href="/assets/data/CV_JaimeAgudoVillanueva_ES.doc"><i class="fa fa-download"></i>Descarga mi cv</a>
           </div>
         </div>
       </div> <!-- /.row -->
@@ -235,9 +235,7 @@
       </div><!-- /.container -->
   </section><!-- End Resume Section -->
 
-  <lista-tecnologias></lista-tecnologias>
-
-<!-- Skills Section -->
+  <!-- Skills Section -->
   <section id="skills" class="skills-section section-padding">
     <div class="container">
       <h2 class="section-title wow fadeInUp">Habilidades</h2>
@@ -295,69 +293,7 @@
     </div><!-- /.container -->
   </section><!-- End Skills Section -->
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact-section section-padding">
-    <div class="container">
-      <h2 class="section-title wow fadeInUp">Contacto</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="contact-form">
-            <strong>Escríbeme</strong>
-            <form name="contact-form" method="post" action="assets/php/sendemail.php">
-              <div class="form-group">
-                <label for="InputName1">Nombre</label>
-                <input type="text" name="name" class="form-control" id="InputName1" required="">
-              </div>
-              <div class="form-group">
-                <label for="InputEmail1">Email</label>
-                <input type="email" name="email" class="form-control" id="InputEmail1" required="">
-              </div>
-              <div class="form-group">
-                <label for="InputSubject">Asunto</label>
-                <input type="text" name="subject" class="form-control" id="InputSubject">
-              </div>
-              <div class="form-group">
-                <label for="InputTextarea">Mensaje</label>
-                <textarea name="message" class="form-control" id="InputTextarea" rows="5" required=""></textarea>
-              </div>
-
-              <button type="submit" name="submit" class="btn btn-primary">Enviar mensaje</button>
-            </form>
-          </div>
-        </div><!-- /.col-md-6 -->
-
-        <div class="col-md-6">
-          <div class="row center-xs">
-            <div class="col-sm-6">
-              <i class="fa fa-map-marker"></i>
-              <address>
-                <strong>Localización</strong>
-                Madrid, España<br>
-              </address>
-            </div>
-
-            <div class="col-sm-6">
-              <i class="fa fa-mobile"></i>
-              <div class="contact-number">
-                <strong>Teléfono</strong>
-                (+34) 662362559
-              </div>
-            </div>
-          </div>
-
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="location-map">
-              <div id="mapCanvas" class="map-canvas"></div>
-            </div>
-          </div>
-        </div>
-
-        </div>
-      </div><!-- /.row -->
-    </div><!-- /.container -->
-  </section><!-- End Contact Section -->
-
+  <lista-tecnologias></lista-tecnologias>
 
 <!-- Footer Section -->
   <footer class="footer-wrapper">

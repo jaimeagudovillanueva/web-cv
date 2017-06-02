@@ -268,46 +268,6 @@ jQuery(function ($) {
         }).init();
 
     }());
-
-    // -------------------------------------------------------------
-    // Google Map
-    // -------------------------------------------------------------
-
-    (function () {
-        var myLatlng = new google.maps.LatLng(40.4168833, -3.7046291);
-
-            var mapOptions = {
-                zoom: 16,
-                scrollwheel: false,
-                center: myLatlng,
-                mapTypeId: google.maps.MapTypeId.ROADMAP,
-                disableDefaultUI: true
-            }
-
-            var map = new google.maps.Map(document.getElementById('mapCanvas'), mapOptions);
-
-            var marker = new google.maps.Marker({
-                position: myLatlng,
-                map: map,
-                animation: google.maps.Animation.DROP,
-                title: 'Hello World!'
-            });
-
-            var contentString = '' +
-                    '' +
-                    '';
-
-            var infowindow = new google.maps.InfoWindow({
-                content: contentString
-            });
-
-            google.maps.event.addListener(marker, 'click', function () {
-                infowindow.open(map, marker);
-            });
-
-    }());
-
-
 });
 
 
